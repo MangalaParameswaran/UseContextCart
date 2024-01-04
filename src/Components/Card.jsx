@@ -67,8 +67,8 @@ function Card() {
         const total = product.price * (product.quantity || 1);
 
         return (
-          <div key={product.id} className="col-11 col-lg-4 mb-4 mx-auto my-5">
-            <div className="card bg-light-subtle rounded-1">
+          <div key={product.id} className="col-11 col-lg-4 mb-3 mx-auto my-5">
+            <div className="card bg-light-subtle">
               <div id={carouselId} className="carousel slide">
                 <div className="carousel-inner">
                   {product.images.map((image, i) => (
